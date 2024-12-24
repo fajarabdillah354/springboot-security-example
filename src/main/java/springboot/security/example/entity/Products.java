@@ -18,7 +18,7 @@ import java.util.List;
 @Builder
 @Table(name = "products")
 @Entity
-public class Products extends BaseAuditorEntity<String>{
+public class Products extends BaseAuditorEntity<String>{//meletakan entity listener pada class Products
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
